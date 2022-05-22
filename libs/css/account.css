@@ -1,0 +1,122 @@
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: chocolate;    
+    margin-top: 10px;
+}
+
+.topnav .topright {
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.left_menu {
+    float: left;
+    width: 20%;
+    height: 500px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #CCC;
+}
+
+.left_menu .menu_heading {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    background-color: chocolate;
+    border-radius: 10px 10px 0 0;
+}
+
+.left_menu .menu_item {
+    color: black;
+    text-decoration: none;
+    line-height: 30px;   
+}
+
+.menu_item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    color: chocolate;
+}
+
+ul, li {
+    border-bottom: dashed 1px;
+    list-style-type: none;
+    text-align: left;
+    margin: 10px;
+    padding: 0;
+}
+
+ul {
+    border: none;
+}
+
+.right_menu {
+    overflow-x:auto;
+    margin: 10px;
+    padding-left: 50px;
+    height: 500px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: chocolate;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    max-width: 1280px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+/* list-account.php */
+.list_account table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.list_account td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+/* list-salary.php */
+.list_salary table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.list_salary td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+/* edit-acount.php */
+#edit_item {
+    overflow-x: hidden;
+}
+.ip-b {
+    width: 250px;
+}
